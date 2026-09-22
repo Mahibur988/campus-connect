@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campus Connect</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Campus Connect</h1>
+  </header>
+
+  <main class="container">
+    <section class="message-form" aria-labelledby="form-title">
+      <h2 id="form-title">Share a message</h2>
+
+      <form id="message-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" placeholder="Write your message" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <section class="messages" aria-labelledby="messages-title">
+      <h2 id="messages-title">Messages</h2>
+      <button type="button" id="clear-messages" class="clear-button">Clear All Messages</button>
+      <div id="message-list" class="message-list" aria-live="polite">
+        <p class="empty-state">No messages yet.</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
