@@ -5,6 +5,7 @@
 I asked Copilot to help me build a simple student communication tool called Campus Connect. I broke the project into three separate files: `index.html` for the page structure, `style.css` for the design, and `script.js` for the interactive behavior.
 
 First, I asked for a basic layout with a title, name input, message input, Send Message button, and message area. After that basic version was created, I asked to add a Delete button to each message. Finally, I asked to add a Clear All Messages button. This made the project easier to build one feature at a time.
+![Copilot building the Campus Connect application](images/copilot-build.png)
 
 ## 2. How did your approach to asking questions change as you worked?
 
@@ -17,6 +18,7 @@ After the structure was clear, my requests became more specific. I asked Copilot
 I was surprised that Copilot could build the initial working version from a short description and then update it in small steps without replacing the existing functionality. For example, the Send Message behavior continued working after Delete and Clear All Messages were added.
 
 I also noticed that Copilot checked the files for errors after making changes. The editor reported no errors in the HTML, CSS, JavaScript, README, or reflection-related files that were checked. A Node.js syntax check was attempted, but Node.js was not available in the environment, so that check could not run.
+![Copilot adding the Delete button](images/copilot-delete.png)
 
 ## 4. What did you learn about the technology you used that you didn't know before?
 
@@ -25,6 +27,7 @@ I learned how HTML, CSS, and JavaScript work together in a small browser applica
 I learned that JavaScript can listen for a form submission, stop the page from refreshing with `preventDefault()`, read input values, and create new HTML elements for messages. I also learned how to attach a separate Delete button to each message and remove that message from the DOM. The Clear All button removes the displayed messages and restores the `No messages yet.` empty state.
 
 The project also showed me that the `required` attribute can prevent empty form fields from being submitted, while JavaScript can trim the input and check it before creating a message.
+![Testing the Campus Connect application](images/copilot-test.png)
 
 ## 5. What would you do differently if you had to build this again?
 
