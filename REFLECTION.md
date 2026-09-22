@@ -31,6 +31,7 @@ The project also showed me that the `required` attribute can prevent empty form 
 If I built Campus Connect again, I would plan the message behavior before writing the code and add tests for each feature while building it. I would test sending several messages, deleting one message, deleting the last message, and clearing all messages.
 
 I would also try the application directly in a browser as part of the development process. In this conversation, the files were checked by the editor, but a browser-based test was not completed. I might also add message persistence later, so messages would not disappear when the page is refreshed, but that was outside the current project requirements.
+I would also test each feature more carefully before finishing the project.
 
 ## How I Used Copilot Step by Step
 
